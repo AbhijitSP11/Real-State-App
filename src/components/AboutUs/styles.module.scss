@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    height: 90vh;
+    margin-top: 100px;
+    padding:  0 4rem;
+    gap: 8rem;
+    .left{
+        width: 50%;
+        .about{
+            color: orange;
+        }
+
+        .button{
+            color: black;
+            border-radius: 10px;
+            border: 1px solid rgb(16, 16, 16);
+            padding: 0.6em 1.2em;
+            font-size: 1em;
+            font-weight: 500;
+            font-family: inherit;
+            cursor: pointer;
+            transition: border-color 0.25s;
+
+        }
+    }
+    .right{
+        .col{
+            display: flex;
+            flex-direction: row;
+            .row{
+                display: flex;
+                flex-direction: column;
+                .image{
+                    height: 300px;
+                    width: 280px;
+                    object-fit: cover;
+                    padding: 0.5rem;
+                    border-radius: 30px;
+                }
+                .image2{
+                    height: 400px;
+                    width: 280px;
+                    object-fit: cover;
+                    padding: 0.5rem;
+                    position: absolute;
+                    border-radius: 30px;
+                }
+                .image3{
+                    position: relative;
+                    height: 200px;
+                    width: 280px;
+                    object-fit: cover;
+                    padding: 0.5rem;
+                    border-radius: 30px;
+
+                }
+            }
+        }
+        
+
+    }
+
+}

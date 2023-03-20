@@ -1,0 +1,20 @@
+.container{
+    margin-top: 4rem;
+    height: 50vh;
+    display: flex;
+    padding: 0 4rem;
+
+    .left{
+        width: 30%;
+
+    }
+    .right{
+        display: flex;
+        margin: 0 auto;
+        gap: 4rem;
+
+        .content{
+            line-height: 2.5rem;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.container .heading {
+  font-weight: 800;
+}
+.container .linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.container .linksContainer .links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.container .linksContainer .button1 {
+  color: rgb(241, 238, 238);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}/*# sourceMappingURL=styles.module.css.map */

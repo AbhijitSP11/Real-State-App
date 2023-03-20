@@ -1,0 +1,81 @@
+.container{
+    margin-top: -4rem;
+    padding: 0 4rem;
+    position: relative;
+    
+    .explore{
+        color: orange;
+    }
+
+    h1{
+        margin: 0.6rem 0
+    }
+    .wrapper{
+        margin-top: 4rem ;
+        display: flex;
+    .left{
+        width: 60%;
+        .image{
+            width: 36rem;
+            height: 36rem;
+            border-radius: 16px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        }
+       
+    }
+    .right{
+        margin-top: -4rem;
+        .wrapper{
+        display: flex;
+        gap: 1rem;
+
+       
+        .column{
+
+            .columnImg{
+                width: 580px;
+                height: 360px;
+                border-radius: 16px;
+                object-fit: cover;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            }
+            .row{
+                .rowImg{
+                    width: 150px;
+                    height: 115px;
+                    border-radius: 16px;
+                    object-fit: cover;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+        }
+    }
+        .ratings{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            h2{
+                margin: 0.6rem 0;
+            }
+        }
+        .button{
+            margin-top: 2rem;
+            color: black;
+            border-radius: 10px;
+            border: 1px solid rgb(16, 16, 16);
+            padding: 1rem 2rem;
+            font-size: 1em;
+            font-weight: 500;
+            font-family: inherit;
+            cursor: pointer;
+            transition: border-color 0.25s;
+
+        }
+
+    }
+}
+}

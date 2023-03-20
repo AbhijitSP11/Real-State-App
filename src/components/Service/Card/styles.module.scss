@@ -1,0 +1,21 @@
+.container{
+   padding: 0 2rem;
+.wrapper{
+   margin-top: -50px;
+   width: 16rem;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-radius: 8px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   background-color: rgb(247, 247, 247);
+
+   .icon{
+      padding: 1rem;
+      background-color: rgb(232, 232, 232);
+      border-radius: 50%;
+      border: 1px solid rgb(232, 232, 232)
+   }
+}
+}

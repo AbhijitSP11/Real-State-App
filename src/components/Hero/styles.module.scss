@@ -1,0 +1,22 @@
+.container{
+    height: 62vh;
+    display: flex;
+    padding:  6rem 4rem;
+    color: #1a1a1a;
+    gap: 6rem;
+    background-image: url("https://images.pexels.com/photos/1898361/pexels-photo-1898361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .left{
+       width: 60%; 
+
+       .last{
+        text-decoration: underline;
+        color: orange;
+       }
+    }
+    .right{
+        width: 40%;
+        
+    }
+}
