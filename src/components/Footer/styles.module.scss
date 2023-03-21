@@ -1,7 +1,7 @@
 .container{
     width: 100%;
     margin-top: 4rem;
-    height: 50vh;
+    // height: 50vh;
     display: flex;
     padding: 0 4rem;
 
@@ -12,7 +12,7 @@
     .right{
         display: flex;
         margin: 0 auto;
-        gap: 4rem;
+        gap: 10rem;
 
         .content{
             line-height: 2.5rem;

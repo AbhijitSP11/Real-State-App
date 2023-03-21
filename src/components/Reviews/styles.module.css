@@ -5,6 +5,7 @@
   padding: 0 4rem;
   display: flex;
   gap: 10rem;
+  overflow: hidden;
 }
 .container .left {
   width: 25%;
@@ -53,6 +54,7 @@
     margin-top: -4rem;
     padding: 0 1rem;
     display: flex;
+    height: 100%;
     flex-direction: column;
   }
   .container .left {
