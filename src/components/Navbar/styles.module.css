@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,4 +30,20 @@
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  .container .heading {
+    font-weight: 800;
+  }
+  .container .linksContainer {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.module.css.map */

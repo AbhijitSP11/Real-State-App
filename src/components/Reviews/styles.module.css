@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  margin-top: -4rem;
+  padding: 0 4rem;
+  display: flex;
+  gap: 10rem;
+}
+.container .left {
+  width: 25%;
+}
+.container .left .heading1 {
+  color: orange;
+}
+.container .left .image {
+  margin-top: 2rem;
+  width: 220px;
+  height: 8rem;
+  border-radius: 16px;
+}
+.container .left p {
+  margin-top: 2rem;
+}
+.container .left .button {
+  margin-top: 2rem;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid rgb(16, 16, 16);
+  padding: 1rem 2rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.container .right {
+  display: flex;
+  gap: 2rem;
+}
+.container .right .column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container .right .column .row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-top: -4rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .left {
+    width: 100%;
+  }
+  .container .left .heading1 {
+    color: orange;
+  }
+  .container .left .image {
+    margin-top: 2rem;
+    width: 100%;
+    height: 8rem;
+    border-radius: 16px;
+  }
+  .container .left p {
+    margin-top: 2rem;
+  }
+  .container .left .button {
+    margin-top: 2rem;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(16, 16, 16);
+    padding: 1rem 2rem;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  .container .right {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .right .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .container .right .column .row {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=styles.module.css.map */

@@ -18,7 +18,7 @@ function Explore() {
 
           Find in your area. 
         </h1>
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper1}>
         <div className={styles.left}>
         <img className={styles.image} src='https://img.freepik.com/premium-vector/abstract-city-map-with-pins-navigation-app_95169-1513.jpg?w=2000' alt=''/>
         <div>

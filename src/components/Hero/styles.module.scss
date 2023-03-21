@@ -1,5 +1,5 @@
-.container{
-    height: 62vh;
+.container {
+    height: 100vh;
     display: flex;
     padding:  6rem 4rem;
     color: #1a1a1a;
@@ -7,16 +7,35 @@
     background-image: url("https://images.pexels.com/photos/1898361/pexels-photo-1898361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
-    .left{
-       width: 60%; 
-
-       .last{
-        text-decoration: underline;
-        color: orange;
-       }
+  }
+  
+  .left {
+    width: 60%;
+  }
+  
+  .last {
+    text-decoration: underline;
+    color: orange;
+  }
+  
+  .right {
+    width: 40%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+      padding: 4rem 2rem;
     }
-    .right{
-        width: 40%;
-        
+    
+    .left {
+      width: 100%;
+      margin-bottom: 3rem;
     }
-}
+    
+    .right {
+      width: 100%;
+    }
+  }
+  

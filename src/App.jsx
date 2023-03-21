@@ -15,11 +15,11 @@ function App() {
       <Navbar/>
       <Hero/>
       <Service/>
-      <About/>
+      {/* <About/> */}
       <Explore/>
       <Featured/>
       <Reviews/>
-      <FooterComp/>
+      {/* <FooterComp/>  */}
     </div>
   )
 }

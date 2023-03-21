@@ -1,7 +1,9 @@
 .container{
+    width: 100%;
     margin-top: -4rem;
     padding: 0 4rem;
     position: relative;
+    // background-color: red;
     
     .explore{
         color: orange;
@@ -10,32 +12,29 @@
     h1{
         margin: 0.6rem 0
     }
-    .wrapper{
+    .wrapper1{
         margin-top: 4rem ;
         display: flex;
     .left{
-        width: 60%;
+        width: 100%;
         .image{
-            width: 36rem;
-            height: 36rem;
+            width: 80%;
+            height: auto;
             border-radius: 16px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-        }
-       
+        }   
     }
     .right{
         margin-top: -4rem;
         .wrapper{
-        display: flex;
-        gap: 1rem;
-
-       
+            display: flex;
+            gap: 1rem;
         .column{
-
+            display: flex;
+            flex-direction: column;
             .columnImg{
-                width: 580px;
-                height: 360px;
+                width: 100%;
+                height: auto;
                 border-radius: 16px;
                 object-fit: cover;
                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -79,3 +78,125 @@
     }
 }
 }
+@media only screen and (max-width: 768px) {
+    // .container{
+    //     // width: 100%;
+    //     padding: 0 1rem;
+    //     position: relative;
+    //     .explore{
+    //         color: orange;
+    //     }
+    
+    //     h1{
+    //         margin: 0.6rem 0
+    //     }
+    //     .wrapper{
+    //         display: flex;
+    //         flex-direction: column;
+    //         .left{
+    //             width: 100%;
+    //             .image{
+    //                 width: 80%;
+    //                 height: auto;
+    //                 border-radius: 16px;
+    //                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    //             }   
+    //         }
+    //     }
+    //     .column {
+    //         display: flex;
+    //         // background-color: black;
+    //         .row{
+    //             display: flex;  
+    //             flex-direction: row;
+    //         }
+    //     }
+    // }
+
+    .container{
+        width: 100%;
+        padding: 0 1rem;
+        position: relative;
+        // background-color: red;
+        
+        .explore{
+            color: orange;
+        }
+    
+        h1{
+            margin: 0.6rem 0
+        }
+        .wrapper1{
+            margin-top: 4rem ;
+            display: flex;
+            flex-direction: column;
+        .left{
+            width: 100%;
+            .image{
+                width: 100%;
+                height: auto;
+                border-radius: 16px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }   
+        }
+        .right{
+            margin-top: 1rem;
+            .wrapper{
+                display: flex;
+                flex-direction: column;
+
+                gap: 1rem;
+            .column{
+                display: flex;
+                flex-direction: row;
+                .columnImg{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 16px;
+                    object-fit: cover;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+                .row{
+                    display: flex;
+                    // padding-left: 1rem;
+                    justify-content: space-around;
+                    .rowImg{
+                        width: 100%;
+                        border-radius: 16px;
+                        object-fit: cover;
+                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    }
+                }
+            }
+        }
+            .ratings{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                h2{
+                    margin: 0.2rem 0;
+                }
+            }
+            .button{
+                margin-top: 2rem;
+                color: black;
+                border-radius: 10px;
+                border: 1px solid rgb(16, 16, 16);
+                padding: 1rem 2rem;
+                font-size: 1em;
+                font-weight: 500;
+                font-family: inherit;
+                cursor: pointer;
+                transition: border-color 0.25s;
+    
+            }
+    
+        }
+    }
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {}

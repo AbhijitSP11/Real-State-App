@@ -29,7 +29,9 @@ function FeaturedCard({image, heading, type, price, location}) {
             </div>
             <div className={styles.last}>
             <div>{location}</div>
-            <div className={styles.button}>Send Offer</div>
+            <div className={styles.button}>
+             Send Offer
+            </div>
             </div>
         </div>
     </div>
